@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h1 + p {
+            color: #a03
+        }
+        #conteudo h1~p {
+            margin-top: 5px;
+            background-color: rgb(115, 185, 255);
+            width: 300px;
+            height: 50px;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Título</h1>
+        <p>Segundo Parágrafo</p>
+    </div>
+
+    <hr>
+
+    <div id="conteudo">
+        <p>Esse parágrafo não é selecionado</p>
+        <h1>Meu conteúdo</h1>
+        <p>Parágrafo 1</p>
+        <hr>
+        <p>Parágrafo 2</p>
+        <p>Parágrafo 3</p>
+    </div>
+</body>
+</html>

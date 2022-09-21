@@ -1,0 +1,30 @@
+/* Todos os li descendentes de um elemento com id = menuhorizontal */
+
+#menuhorizontal ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/* Todos os li dentro de ul dentro de um elemento com id = menuhorizontal */
+#menuhorizontal ul li {
+    display: inline;
+}
+
+#menuhorizontal ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+
+body {
+    background-color: rgb(65, 65, 65);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menuhorizontal ul li a:hover {
+    color: rgb(171, 158, 255);
+    border-bottom: 3px solid slateblue;
+}
