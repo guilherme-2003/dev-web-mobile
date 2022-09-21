@@ -16,7 +16,7 @@
     display: inline-block;
     color: white;
     text-decoration: none;
-    border-bottom: 3px solid white;
+    border-bottom: none;
 }
 
 body {
@@ -27,4 +27,13 @@ body {
 #menuhorizontal ul li a:hover {
     color: rgb(171, 158, 255);
     border-bottom: 3px solid slateblue;
+}
+
+@media only screen and (max-width: 700px) {
+    #menuhorizontal ul li {
+        display: block;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 20%;
+    }
 }
