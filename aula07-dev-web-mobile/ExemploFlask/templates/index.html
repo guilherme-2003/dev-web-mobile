@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='imagens/flask.png') }}" alt="Logo do Flask">
+    <h1>Home</h1>
+    <p>Bem vindo, Sr. {{nome}}</p>
+</body>
+</html>
